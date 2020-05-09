@@ -14,7 +14,7 @@ int main()
     alarm(5);
     signal(SIGALRM, sig_handler);
 
-    for (;;)
+    for (;;) //infinite loop
     {
         sleep(1);
     }
